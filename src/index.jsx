@@ -11,7 +11,7 @@ import filterReducer from './reducers/filterReducer';
 import '../assets/stylesheets/application.scss';
 
 const initialState = {
-    filter: 'SHOW_DEAD',
+    filter: 'SHOW_ALL',
     hits: [
         { id: 1, name: 'Taylor Swift', done: false },
         { id: 2, name: 'Rebecca Black', done: false },
